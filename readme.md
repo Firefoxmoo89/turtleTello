@@ -27,4 +27,4 @@ It is highly recommended you take a brief look through the turtleTello module, a
 - Be sure to check out the link in the "streamon" method for actual footage of a drone's flight!
 
 > Shoutout to the amazing Mr. Kunz of Utah County Academy of Sciences who brings the wonderful world of mechatronics and physics to his students!
-###### Brought to you by Christopher Beadle, UCAS class of 2023. Be sure to comment and ask questions on this repl project site or directly to me :)
+###### Brought to you by Christopher Beadle, UCAS class of 2023. Be sure to comment and ask questions on this project or directly to me :)
