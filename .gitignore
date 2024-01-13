@@ -18,5 +18,4 @@ build/install/install.pkg
 build/install/warn-install.txt
 build/install/xref-install.html
 turtleTello/__pycache__/tello.cpython-312.pyc
-turtleTello/__pycache__/tello.cpython-312.pyc
 install.py
