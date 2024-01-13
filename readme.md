@@ -1,5 +1,5 @@
 # Welcome!
-***This is the fancy Turtle Tello Simulator!***  
+***This is the fancy Turtle Tello Simulator v2.5!***  
 If you are using this project, you should be familiar with both [python Turtle Graphics](https://docs.python.org/3/library/turtle.html) and [python Tello drones](https://pypi.org/project/easytello/#description).  
 
 ### What does it do?
