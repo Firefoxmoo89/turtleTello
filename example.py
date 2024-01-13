@@ -1,7 +1,6 @@
 from turtleTello.tello import Tello       			# Import Tello class
 
-maDrone = Tello(scalefactor=20,								
-								map="obstacle")					# Create Tello object
+maDrone = Tello()					# Create Tello object
 print("Battery:",maDrone.get_battery(),"%") 	# Display Battery
 
 maDrone.takeoff()                       			# Drone takeoff
@@ -22,3 +21,5 @@ maDrone.right(72)															# Move right 72cm
 maDrone.forward(21)														# Move forward 21cm
 
 maDrone.land()                          			# Land the drone
+
+input("Press enter to close")
