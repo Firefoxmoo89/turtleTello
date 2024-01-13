@@ -19,7 +19,7 @@ def colorisize(turtle, height, direction):
 	return red, green, blue
 
 def breakadids(string): 
-	raise Exception("\u001b[38;5;202m\u001b[48;5;226m\u001b[1m\n"+string+"\u001b[0m")
+	raise Exception(string)
 def hit(item): breakadids("Drone has collided with\nthe "+item)
 def checkCollision(daMethod,oldPosition,daHeight):
 	if daMethod != "curve":
@@ -47,7 +47,7 @@ def checkCollision(daMethod,oldPosition,daHeight):
 							elif type=="z": hitZ = True
 					if hitX==True and hitY==True and hitZ==True: hit(obstacleLine["name"])
 	elif daMethod == "curve":
-		print("Oop")
+		print("")
 
 class Tello:
 	"""Tello object uses a turtle drawing to represent a drone.\n
