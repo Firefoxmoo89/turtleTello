@@ -1,6 +1,6 @@
 [project]
 name = "turtleTello"
-version = "2.5"
+version = "2.6"
 authors = [
   { name="Firefoxmoo", email="firefoxmoo@gmail.com" },
 ]

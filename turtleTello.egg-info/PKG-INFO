@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: turtleTello
+Version: 2.6
+Summary: A simulator of a tello drone using python SDK in turtle graphics
+Author-email: Firefoxmoo <firefoxmoo@gmail.com>
+Project-URL: Homepage, https://github.com/Firefoxmoo89/turtleTello
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: License.txt
+
 # Welcome!
 ***This is the fancy Turtle Tello Simulator!***  
 If you are using this project, you should be familiar with both [python Turtle Graphics](https://docs.python.org/3/library/turtle.html) and [python Tello drones](https://pypi.org/project/easytello/#description).  

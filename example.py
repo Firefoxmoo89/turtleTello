@@ -1,4 +1,4 @@
-from tello import Tello       			# Import Tello class
+from turtleTello.tello import Tello       			# Import Tello class
 
 maDrone = Tello(scalefactor=20,								
 								map="obstacle")					# Create Tello object
