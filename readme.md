@@ -4,19 +4,23 @@ If you are using this project, you should be familiar with both [python Turtle G
 
 ### What does it do?
 This project is an attempt to simulate a tello drone through turtle, allowing those with limited access to drones to test their code beforehand.  
-The syntax of the Tello object is exactly the same as easytello.tello, so code can be ready to go instantly!
+The syntax of the Tello object is exactly the same as easytello.tello, just change the import to "turtleTello" instead of "easytello" and it will be ready to go instantly! 
+*from easytello.tello import tello -> from turtleTello.tello import Tello*
+*from easytello import tello -> from turtleTello import Tello*
+*import easytello -> import turtleTello*
 ![turtle example](turtleExample.png)  
 
 ### But wait...
 One might feel the need to point out an issue with this ambitious project: tello drones work in a 3d environment, and turtle is only 2 dimentional.  
 In effort to make the turtle workspace as effective as possible, the turtle will act as a drone with the window being a top view (above the drone). To show height, a meter will be on the side. If exact data is neccessary, the "get_height" method is still available.  
+
 ## You are ready to get started! 
 With the basic idea in place, pop in some code into the main.py file and get going!
+It is highly recommended you take a brief look through the module itself as it provides an explanation for each method. If you would like a more detailed list of the capabilities and limitations of this project specifically you may continue reading.
 
-It is highly recommended you take a brief look through the turtleTello module, as it provides an explanation for each method. If you would like a more detailed list of the capabilities and limitations of this project specifically you may continue reading.
 ### Let's look at some specifics...
 - Measurements in turtle pixels are directly proportional to the tello cm parameters for simplicity. If a drawing ends up smaller or larger than wanted, an optional "scaleFactor" parameter is available when the Tello object is created. The value is based on a percentage (100=normal).
-- Due to the nature of turtle, the turtle can only move forward and back. to allow for the drone ability of moving side to side, basic trigonometry has been put in place for the turtle to go to the correct xy coodinate that would correspond.
+- Due to the nature of turtle, the turtle can only move forward and back. to allow for the drone ability of moving side to side, basic trigonometry has been put in place for the turtle to move directly to the correct xy coodinate that would correspond.
 - To ensure there are no bugs with code pasted in, every function has been made available. Any function that is pointless to the simulation simply outputs nonsense :)
 - To make the speed as realistic as possible, the turtle has been set to the slowest speed and must wait a second between each called method.
 - The meter in the bottom right is run by a second turtle that moves up or down in direct proportion to the up and down method. Both the meter turtle and the drone turtle increase in brightness when moved up and decrease in brightness when moved down. If one would prefer, an option to remove the meter turtle is available when the Tello object is called.
@@ -27,4 +31,4 @@ It is highly recommended you take a brief look through the turtleTello module, a
 - Be sure to check out the link in the "streamon" method for actual footage of a drone's flight!
 
 > Shoutout to the amazing Mr. Kunz of Utah County Academy of Sciences who brings the wonderful world of mechatronics and physics to his students!
-###### Brought to you by Christopher Beadle, UCAS class of 2023. Be sure to comment and ask questions on this project or directly to me :)
+###### Brought to you by Christopher Beadle, UCAS class of 2023. You can reach me at firefoxmoo@gmail.com for any questions or comments.
