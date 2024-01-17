@@ -4,10 +4,10 @@ If you are using this project, you should be familiar with both [python Turtle G
 
 ### What does it do?
 This project is an attempt to simulate a tello drone through turtle, allowing those with limited access to drones to test their code beforehand.  
-The syntax of the Tello object is exactly the same as easytello.tello, just change the import to "turtleTello" instead of "easytello" and it will be ready to go instantly! 
-*from easytello.tello import tello -> from turtleTello.tello import Tello*
-*from easytello import tello -> from turtleTello import Tello*
-*import easytello -> import turtleTello*
+The syntax of the Tello object is exactly the same as easytello.tello, just change the import to "turtleTello" instead of "easytello" and it will be ready to go instantly!  
+*from easytello.tello import tello -> from turtleTello.tello import Tello*  
+*from easytello import tello -> from turtleTello import Tello*  
+*import easytello -> import turtleTello*  
 ![turtle example](turtleExample.png)  
 
 ### But wait...
