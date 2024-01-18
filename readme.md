@@ -8,7 +8,6 @@ The syntax of the Tello object is exactly the same as easytello.tello, just chan
 *from easytello.tello import tello -> from turtleTello.tello import Tello*  
 *from easytello import tello -> from turtleTello import Tello*  
 *import easytello -> import turtleTello*  
-![turtle example](turtleExample.png)  
 
 ### But wait...
 One might feel the need to point out an issue with this ambitious project: tello drones work in a 3d environment, and turtle is only 2 dimentional.  
